@@ -2,7 +2,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url("/static/images/zombie_hands.png");
+  background-image: url("static/images/zombie_hands.png");
   background-size: 100% 100%;
 }
 
