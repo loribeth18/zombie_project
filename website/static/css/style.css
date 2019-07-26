@@ -1,0 +1,44 @@
+/* remove default margin and padding from body */
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("/static/images/zombie_hands.png");
+  background-size: 100% 100%;
+}
+
+.jumbotron {
+  padding-top: 5px;
+  max-height: 115px;
+}
+.jumbotron h1{
+  color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+  background-size:100% 100%;
+  padding-top: 5px;
+  /* max-height: 25px; */
+}
+
+.container {
+  margin-right: 25px;
+  margin-left: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.dropdown-toggle {
+  color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.staticImage {
+  width:100%;
+}
+
+.gifImage{
+  zoom:0;
+}
