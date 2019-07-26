@@ -135,7 +135,7 @@ $('#citySelect, #zombieSelect').change(function(){
         $('#description-image').addClass("gifImage");
     } else{
         // alert('0');
-        $('#plotimages').attr('src', "static/images/gifs/plotsstatic_plot.jpg");
+        $('#plotimages').attr('src', "static/images/gifs/plots/static_plot.jpg");
         $('#plotimages').addClass("plotimage");
         $('#description-image').attr('src', "static/images/starter_map.png");
         $('#description-image').removeClass("gifImage");
@@ -163,7 +163,7 @@ $('#zombieSelect').change(function(){
         $('#zombieimages').attr('src', "static/images/gifs/movie/walking_dead.gif");
         $('#zombieimages').addClass("staticImage");
     } else{ 
-        $('#zombieimages').attr('src', "static/images/gifs/moviestatic_zombie.gif");
+        $('#zombieimages').attr('src', "static/images/gifs/movie/static_zombie.gif");
         $('#zombieimages').addClass("staticImage");
     }
 });
